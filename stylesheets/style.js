@@ -72,7 +72,6 @@ let ballTheme = document.getElementsByClassName('theme');
 let brand = document.getElementsByClassName('brand');
 let icons = document.getElementsByClassName('icons');
 
-
 for(let e of ball){
     e.onclick = ()=>{
         ballswitch = ! ballswitch;
@@ -281,7 +280,336 @@ let text = document.getElementsByClassName('text')[0];
 
 
 
-//      contact form validation end
+//      cards appearing
+
+let cards_data = [
+    {
+        src: "images/cards/birthday/1.png",
+        head: "Birthday card - for a friend",
+        price: "$5.99",
+        classes: ["bday", "honest"]
+    },
+    {
+        src: "images/cards/birthday/2.png",
+        head: "Birthday invitation card",
+        price: "$5.99",
+        classes: ["bday", "kasina"]
+    },
+    {
+        src: "images/cards/birthday/3.png",
+        head: "Simple Birthday Card",
+        price: "$3.99",
+        classes: ["bday", "kasina"]
+    },
+    {
+        src: "images/cards/birthday/4.png",
+        head: "Banquet Birthday Card",
+        price: "$7.99",
+        classes: ["bday", "honest"]
+    },
+    {
+        src: "images/cards/birthday/5.png",
+        head: "Simple Birthday Card",
+        price: "$2.99",
+        classes: ["bday", "melodie"]
+    },
+    {
+        src: "images/cards/birthday/6.png",
+        head: "Birthday Present Card",
+        price: "$6.59",
+        classes: ["bday", "plus5"]
+    },
+    {
+        src: "images/cards/birthday/7.png",
+        head: "Birthday Present Card",
+        price: "$6.99",
+        classes: ["bday", "kasina"]
+    },
+    {
+        src: "images/cards/birthday/8.png",
+        head: "Butterfly HandCraft Birthday Card",
+        price: "$8.99",
+        classes: ["bday", "infinite"]
+    },
+    {
+        src: "images/cards/birthday/9.png",
+        head: "Casual Art Birthday Card",
+        price: "$6.49",
+        classes: ["bday", "infinite"]
+    },
+    {
+        src: "images/cards/birthday/10.png",
+        head: "Flower HandCraft Birthday Card",
+        price: "$7.99",
+        classes: ["bday", "kasina"]
+    },
+        {
+        src: "images/cards/birthday/11.png",
+        head: "Birthday Present Card",
+        price: "$5.99",
+        classes: ["bday", "feelings"]
+    },
+    {
+        src: "images/cards/anniversary/1.png",
+        head: "Anniversary Present Card",
+        price: "$5.99",
+        classes: ["anniversary", "melodie"]
+    },
+    {
+        src: "images/cards/anniversary/2.png",
+        head: "Anniversary Present Card",
+        price: "$3.99",
+        classes: ["anniversary", "melodie"]
+    },
+    {
+        src: "images/cards/anniversary/3.png",
+        head: "Anniversary Present Card",
+        price: "$4.99",
+        classes: ["anniversary", "kasina"]
+    },
+    {
+        src: "images/cards/anniversary/4.png",
+        head: "Anniversary Present Card",
+        price: "$8.00",
+        classes: ["anniversary", "infinite"]
+    },
+    {
+        src: "images/cards/anniversary/5.png",
+        head: "Anniversary Present Card",
+        price: "$5.00",
+        classes: ["anniversary", "honest"]
+    },
+    {
+        src: "images/cards/wedding/1.png",
+        head: "Wedding Invitation Card",
+        price: "$4.99",
+        classes: ["wedding", "kasina"]
+    },
+    {
+        src: "images/cards/wedding/2.png",
+        head: "Flower Style Wedding Invitation Card",
+        price: "$5.99",
+        classes: ["wedding", "feelings"]
+    },
+    {
+        src: "images/cards/wedding/3.png",
+        head: "Flower Frame Wedding Invitation Card",
+        price: "$6.00",
+        classes: ["wedding", "honest"]
+    },
+    {
+        src: "images/cards/wedding/4.png",
+        head: "Green style Wedding Invitation Card",
+        price: "$3.99",
+        classes: ["wedding", "shifted"]
+    },
+    {
+        src: "images/cards/wedding/5.png",
+        head: "Avator Wedding Invitation Card",
+        price: "$5.99",
+        classes: ["wedding", "honest"]
+    },
+    {
+        src: "images/cards/wedding/6.png",
+        head: "Creative Design Wedding Invitation Card",
+        price: "$7.99",
+        classes: ["wedding", "feelings"]
+    },
+    {
+        src: "images/cards/wedding/7.png",
+        head: "Vintage Style Wedding Invitation Card",
+        price: "$7.00",
+        classes: ["wedding", "kasina"]
+    },
+    {
+        src: "images/cards/wedding/8.png",
+        head: "Vintage Style Wedding Invitation Card",
+        price: "$5.00",
+        classes: ["wedding", "infinite"]
+    },
+    {
+        src: "images/cards/wedding/9.png",
+        head: "Flower Style Wedding Invitation Card",
+        price: "$5.99",
+        classes: ["wedding", "honest"]
+    },
+    {
+        src: "images/cards/wedding/10.png",
+        head: "Transparent Wedding Invitation Card",
+        price: "$15.00",
+        classes: ["wedding", "kasina"]
+    },
+    {
+        src: "images/cards/invitation/1.png",
+        head: "Event Invitation Card",
+        price: "$4.99",
+        classes: ["invitation", "melodie"]
+    },
+    {
+        src: "images/cards/invitation/2.png",
+        head: "Metting Invitation Card",
+        price: "$5.99",
+        classes: ["invitation", "shifted"]
+    },
+    {
+        src: "images/cards/invitation/3.png",
+        head: "Christmas Party Invitation Card",
+        price: "$6.99",
+        classes: ["invitation", "feelings"]
+    },
+    {
+        src: "images/cards/invitation/4.png",
+        head: "Company Ball Invitation Card",
+        price: "$4.99",
+        classes: ["invitation", "kasina"]
+    },
+    {
+        src: "images/cards/invitation/5.png",
+        head: "Wine Tasting Invitation Card",
+        price: "$6.99",
+        classes: ["invitation", "infinite"]
+    },
+    {
+        src: "images/cards/invitation/6.png",
+        head: "Retro Sound Invitation Card",
+        price: "$5.99",
+        classes: ["invitation", "plus5"]
+    },
+    {
+        src: "images/cards/invitation/7.png",
+        head: "Conference Invitation Card",
+        price: "$2.99",
+        classes: ["invitation", "shifted"]
+    },
+    {
+        src: "images/cards/invitation/8.png",
+        head: "Graduation Party Invitation Card",
+        price: "$5.99",
+        classes: ["invitation", "melodie"]
+    },
+    {
+        src: "images/cards/invitation/9.png",
+        head: "Star View Invitation Card",
+        price: "$5.00",
+        classes: ["invitation", "feelings"]
+    },
+    {
+        src: "images/cards/invitation/10.png",
+        head: "Certain Event Invitation Card",
+        price: "$4.99",
+        classes: ["invitation", "shifted"]
+    },
+    {
+        src: "images/cards/business cards/1.png",
+        head: "Business Card",
+        price: "$5.99",
+        classes: ["business", "shifted"]
+    },
+    {
+        src: "images/cards/business cards/2.png",
+        head: "Business Card",
+        price: "$5.99",
+        classes: ["business", "shifted"]
+    },
+    {
+        src: "images/cards/business cards/3.png",
+        head: "Business Card",
+        price: "$5.99",
+        classes: ["business", "shifted"]
+    },
+    {
+        src: "images/cards/business cards/4.png",
+        head: "Business Card",
+        price: "$5.99",
+        classes: ["business", "shifted"]
+    },
+    {
+        src: "images/cards/business cards/5.png",
+        head: "Business Card",
+        price: "$5.99",
+        classes: ["business", "shifted"]
+    },
+    {
+        src: "images/cards/eid/1.png",
+        head: "Eid card",
+        price: "$4.99",
+        classes: ["eid", "plus5"]
+    },
+    {
+        src: "images/cards/eid/2.png",
+        head: "Eid card",
+        price: "$5.99",
+        classes: ["eid", "infinite"]
+    },
+    {
+        src: "images/cards/eid/3.png",
+        head: "Eid card",
+        price: "$4.00",
+        classes: ["eid", "plus5"]
+    },
+    {
+        src: "images/cards/eid/4.png",
+        head: "Eid card",
+        price: "$5.00",
+        classes: ["eid", "kasina"]
+    },
+    {
+        src: "images/cards/eid/5.png",
+        head: "Eid card",
+        price: "$6.00",
+        classes: ["eid", "feelings"]
+    },
+    {
+        src: "images/cards/eid/6.png",
+        head: "Eid card",
+        price: "$8.99",
+        classes: ["eid", "melodie"]
+    },
+    {
+        src: "images/cards/eid/7.png",
+        head: "Eid card",
+        price: "$5.99",
+        classes: ["eid", "plus5"]
+    },
+    {
+        src: "images/cards/eid/8.png",
+        head: "Eid card",
+        price: "$3.99",
+        classes: ["eid", "plus5"]
+    },
+    {
+        src: "images/cards/eid/9.png",
+        head: "Eid card",
+        price: "$9.99",
+        classes: ["eid", "honest"]
+    },
+    {
+        src: "images/cards/eid/10.png",
+        head: "Eid card",
+        price: "$5.99",
+        classes: ["eid", "infinite"]
+    }
+]
+
+
+let card_temp = document.querySelector("[data-card-template]");
+let container = document.querySelector(".cards-container");
+let count = 0;
+
+for(let c of cards_data){
+    let clone = card_temp.content.cloneNode(true).children[0];
+    clone.setAttribute("onclick", `cardReveal(${count});`);
+    clone.querySelector("[data-img]").src = c.src;
+    clone.querySelector("[data-head]").innerHTML = c.head;
+    clone.querySelector("[data-price]").innerHTML = c.price;
+    for (let cls of c.classes){
+        clone.classList.add(cls);
+    }
+
+    container.appendChild(clone);
+    count++;
+}
+
 
 
 //          modal 
@@ -299,10 +627,10 @@ let cPrice = document.getElementsByClassName('card-price');
 let cImg = document.getElementsByClassName('card-img');
 
 function cardReveal(num){
-    mImg.src = cImg[num].src;
-    mHead.innerHTML = cHead[num].innerHTML;
-    mDesc.innerHTML = cPara[num].innerHTML;
-    mPrice.innerHTML = cPrice[num].innerHTML;
+    mImg.src = cards_data[num].src;
+    mHead.innerHTML = cards_data[num].head;
+    mDesc.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto corporis iure porro facilis maiores odit doloribus quidem ipsam, praesentium temporibus.";
+    mPrice.innerHTML = cards_data[num].price;
 
     modal.style.display = "flex";
 
