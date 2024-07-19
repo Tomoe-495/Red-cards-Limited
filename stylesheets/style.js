@@ -284,307 +284,307 @@ let text = document.getElementsByClassName('text')[0];
 
 let cards_data = [
     {
-        src: "images/cards/birthday/1.png",
+        src: "images/cards/birthday/1.webp",
         head: "Birthday card - for a friend",
         price: "$5.99",
         classes: ["bday", "honest"]
     },
     {
-        src: "images/cards/birthday/2.png",
+        src: "images/cards/birthday/2.webp",
         head: "Birthday invitation card",
         price: "$5.99",
         classes: ["bday", "kasina"]
     },
     {
-        src: "images/cards/birthday/3.png",
+        src: "images/cards/birthday/3.webp",
         head: "Simple Birthday Card",
         price: "$3.99",
         classes: ["bday", "kasina"]
     },
     {
-        src: "images/cards/birthday/4.png",
+        src: "images/cards/birthday/4.webp",
         head: "Banquet Birthday Card",
         price: "$7.99",
         classes: ["bday", "honest"]
     },
     {
-        src: "images/cards/birthday/5.png",
+        src: "images/cards/birthday/5.webp",
         head: "Simple Birthday Card",
         price: "$2.99",
         classes: ["bday", "melodie"]
     },
     {
-        src: "images/cards/birthday/6.png",
+        src: "images/cards/birthday/6.webp",
         head: "Birthday Present Card",
         price: "$6.59",
         classes: ["bday", "plus5"]
     },
     {
-        src: "images/cards/birthday/7.png",
+        src: "images/cards/birthday/7.webp",
         head: "Birthday Present Card",
         price: "$6.99",
         classes: ["bday", "kasina"]
     },
     {
-        src: "images/cards/birthday/8.png",
+        src: "images/cards/birthday/8.webp",
         head: "Butterfly HandCraft Birthday Card",
         price: "$8.99",
         classes: ["bday", "infinite"]
     },
     {
-        src: "images/cards/birthday/9.png",
+        src: "images/cards/birthday/9.webp",
         head: "Casual Art Birthday Card",
         price: "$6.49",
         classes: ["bday", "infinite"]
     },
     {
-        src: "images/cards/birthday/10.png",
+        src: "images/cards/birthday/10.webp",
         head: "Flower HandCraft Birthday Card",
         price: "$7.99",
         classes: ["bday", "kasina"]
     },
         {
-        src: "images/cards/birthday/11.png",
+        src: "images/cards/birthday/11.webp",
         head: "Birthday Present Card",
         price: "$5.99",
         classes: ["bday", "feelings"]
     },
     {
-        src: "images/cards/anniversary/1.png",
+        src: "images/cards/anniversary/1.webp",
         head: "Anniversary Present Card",
         price: "$5.99",
         classes: ["anniversary", "melodie"]
     },
     {
-        src: "images/cards/anniversary/2.png",
+        src: "images/cards/anniversary/2.webp",
         head: "Anniversary Present Card",
         price: "$3.99",
         classes: ["anniversary", "melodie"]
     },
     {
-        src: "images/cards/anniversary/3.png",
+        src: "images/cards/anniversary/3.webp",
         head: "Anniversary Present Card",
         price: "$4.99",
         classes: ["anniversary", "kasina"]
     },
     {
-        src: "images/cards/anniversary/4.png",
+        src: "images/cards/anniversary/4.webp",
         head: "Anniversary Present Card",
         price: "$8.00",
         classes: ["anniversary", "infinite"]
     },
     {
-        src: "images/cards/anniversary/5.png",
+        src: "images/cards/anniversary/5.webp",
         head: "Anniversary Present Card",
         price: "$5.00",
         classes: ["anniversary", "honest"]
     },
     {
-        src: "images/cards/wedding/1.png",
+        src: "images/cards/wedding/1.webp",
         head: "Wedding Invitation Card",
         price: "$4.99",
         classes: ["wedding", "kasina"]
     },
     {
-        src: "images/cards/wedding/2.png",
+        src: "images/cards/wedding/2.webp",
         head: "Flower Style Wedding Invitation Card",
         price: "$5.99",
         classes: ["wedding", "feelings"]
     },
     {
-        src: "images/cards/wedding/3.png",
+        src: "images/cards/wedding/3.webp",
         head: "Flower Frame Wedding Invitation Card",
         price: "$6.00",
         classes: ["wedding", "honest"]
     },
     {
-        src: "images/cards/wedding/4.png",
+        src: "images/cards/wedding/4.webp",
         head: "Green style Wedding Invitation Card",
         price: "$3.99",
         classes: ["wedding", "shifted"]
     },
     {
-        src: "images/cards/wedding/5.png",
+        src: "images/cards/wedding/5.webp",
         head: "Avator Wedding Invitation Card",
         price: "$5.99",
         classes: ["wedding", "honest"]
     },
     {
-        src: "images/cards/wedding/6.png",
+        src: "images/cards/wedding/6.webp",
         head: "Creative Design Wedding Invitation Card",
         price: "$7.99",
         classes: ["wedding", "feelings"]
     },
     {
-        src: "images/cards/wedding/7.png",
+        src: "images/cards/wedding/7.webp",
         head: "Vintage Style Wedding Invitation Card",
         price: "$7.00",
         classes: ["wedding", "kasina"]
     },
     {
-        src: "images/cards/wedding/8.png",
+        src: "images/cards/wedding/8.webp",
         head: "Vintage Style Wedding Invitation Card",
         price: "$5.00",
         classes: ["wedding", "infinite"]
     },
     {
-        src: "images/cards/wedding/9.png",
+        src: "images/cards/wedding/9.webp",
         head: "Flower Style Wedding Invitation Card",
         price: "$5.99",
         classes: ["wedding", "honest"]
     },
     {
-        src: "images/cards/wedding/10.png",
+        src: "images/cards/wedding/10.webp",
         head: "Transparent Wedding Invitation Card",
         price: "$15.00",
         classes: ["wedding", "kasina"]
     },
     {
-        src: "images/cards/invitation/1.png",
+        src: "images/cards/invitation/1.webp",
         head: "Event Invitation Card",
         price: "$4.99",
         classes: ["invitation", "melodie"]
     },
     {
-        src: "images/cards/invitation/2.png",
+        src: "images/cards/invitation/2.webp",
         head: "Metting Invitation Card",
         price: "$5.99",
         classes: ["invitation", "shifted"]
     },
     {
-        src: "images/cards/invitation/3.png",
+        src: "images/cards/invitation/3.webp",
         head: "Christmas Party Invitation Card",
         price: "$6.99",
         classes: ["invitation", "feelings"]
     },
     {
-        src: "images/cards/invitation/4.png",
+        src: "images/cards/invitation/4.webp",
         head: "Company Ball Invitation Card",
         price: "$4.99",
         classes: ["invitation", "kasina"]
     },
     {
-        src: "images/cards/invitation/5.png",
+        src: "images/cards/invitation/5.webp",
         head: "Wine Tasting Invitation Card",
         price: "$6.99",
         classes: ["invitation", "infinite"]
     },
     {
-        src: "images/cards/invitation/6.png",
+        src: "images/cards/invitation/6.webp",
         head: "Retro Sound Invitation Card",
         price: "$5.99",
         classes: ["invitation", "plus5"]
     },
     {
-        src: "images/cards/invitation/7.png",
+        src: "images/cards/invitation/7.webp",
         head: "Conference Invitation Card",
         price: "$2.99",
         classes: ["invitation", "shifted"]
     },
     {
-        src: "images/cards/invitation/8.png",
+        src: "images/cards/invitation/8.webp",
         head: "Graduation Party Invitation Card",
         price: "$5.99",
         classes: ["invitation", "melodie"]
     },
     {
-        src: "images/cards/invitation/9.png",
+        src: "images/cards/invitation/9.webp",
         head: "Star View Invitation Card",
         price: "$5.00",
         classes: ["invitation", "feelings"]
     },
     {
-        src: "images/cards/invitation/10.png",
+        src: "images/cards/invitation/10.webp",
         head: "Certain Event Invitation Card",
         price: "$4.99",
         classes: ["invitation", "shifted"]
     },
     {
-        src: "images/cards/business cards/1.png",
+        src: "images/cards/business cards/1.webp",
         head: "Business Card",
         price: "$5.99",
         classes: ["business", "shifted"]
     },
     {
-        src: "images/cards/business cards/2.png",
+        src: "images/cards/business cards/2.webp",
         head: "Business Card",
         price: "$5.99",
         classes: ["business", "shifted"]
     },
     {
-        src: "images/cards/business cards/3.png",
+        src: "images/cards/business cards/3.webp",
         head: "Business Card",
         price: "$5.99",
         classes: ["business", "shifted"]
     },
     {
-        src: "images/cards/business cards/4.png",
+        src: "images/cards/business cards/4.webp",
         head: "Business Card",
         price: "$5.99",
         classes: ["business", "shifted"]
     },
     {
-        src: "images/cards/business cards/5.png",
+        src: "images/cards/business cards/5.webp",
         head: "Business Card",
         price: "$5.99",
         classes: ["business", "shifted"]
     },
     {
-        src: "images/cards/eid/1.png",
+        src: "images/cards/eid/1.webp",
         head: "Eid card",
         price: "$4.99",
         classes: ["eid", "plus5"]
     },
     {
-        src: "images/cards/eid/2.png",
+        src: "images/cards/eid/2.webp",
         head: "Eid card",
         price: "$5.99",
         classes: ["eid", "infinite"]
     },
     {
-        src: "images/cards/eid/3.png",
+        src: "images/cards/eid/3.webp",
         head: "Eid card",
         price: "$4.00",
         classes: ["eid", "plus5"]
     },
     {
-        src: "images/cards/eid/4.png",
+        src: "images/cards/eid/4.webp",
         head: "Eid card",
         price: "$5.00",
         classes: ["eid", "kasina"]
     },
     {
-        src: "images/cards/eid/5.png",
+        src: "images/cards/eid/5.webp",
         head: "Eid card",
         price: "$6.00",
         classes: ["eid", "feelings"]
     },
     {
-        src: "images/cards/eid/6.png",
+        src: "images/cards/eid/6.webp",
         head: "Eid card",
         price: "$8.99",
         classes: ["eid", "melodie"]
     },
     {
-        src: "images/cards/eid/7.png",
+        src: "images/cards/eid/7.webp",
         head: "Eid card",
         price: "$5.99",
         classes: ["eid", "plus5"]
     },
     {
-        src: "images/cards/eid/8.png",
+        src: "images/cards/eid/8.webp",
         head: "Eid card",
         price: "$3.99",
         classes: ["eid", "plus5"]
     },
     {
-        src: "images/cards/eid/9.png",
+        src: "images/cards/eid/9.webp",
         head: "Eid card",
         price: "$9.99",
         classes: ["eid", "honest"]
     },
     {
-        src: "images/cards/eid/10.png",
+        src: "images/cards/eid/10.webp",
         head: "Eid card",
         price: "$5.99",
         classes: ["eid", "infinite"]
@@ -600,6 +600,7 @@ for(let c of cards_data){
     let clone = card_temp.content.cloneNode(true).children[0];
     clone.setAttribute("onclick", `cardReveal(${count});`);
     clone.querySelector("[data-img]").src = c.src;
+    clone.querySelector("[data-img").loading = 'lazy'
     clone.querySelector("[data-head]").innerHTML = c.head;
     clone.querySelector("[data-price]").innerHTML = c.price;
     for (let cls of c.classes){

@@ -248,7 +248,7 @@ a{
 .sect1{
     width: 100%;
     height: 100%;
-    background-image: url("images/sect1.jpg");
+    background-image: url("images/sect1.webp");
     background-size: cover;
     background-position: center;
     z-index: 5;
@@ -261,13 +261,13 @@ a{
     overflow: hidden;
 }
 .market .header .sect1{
-    background-image: url('images/sect2.jpg');
+    background-image: url('images/sect2.webp');
 }
 .about .header .sect1{
-    background-image: url('images/sect3.jpg');
+    background-image: url('images/sect3.webp');
 }
 .contact .header .sect1{
-    background-image: url('images/sect4.jpg');
+    background-image: url('images/sect4.webp');
 }
 
 .sect1 div{
@@ -287,23 +287,23 @@ a{
 }
 
 .headsect1{
-    background-image: url("images/firstSlides/bday.png");
+    background-image: url("images/firstSlides/bday.webp");
     animation-delay: 100ms;
 }
 .headsect2{
-    background-image: url('images/firstSlides/wedding.png');
+    background-image: url('images/firstSlides/wedding.webp');
     animation-delay: 200ms;
 }
 .headsect3{
-    background-image: url('images/firstSlides/eid.png');
+    background-image: url('images/firstSlides/eid.webp');
     animation-delay: 300ms;
 }
 .headsect4{
-    background-image: url('images/firstSlides/anniversary.png');
+    background-image: url('images/firstSlides/anniversary.webp');
     animation-delay: 400ms;
 }
 .headsect5{
-    background-image: url('images/firstSlides/business cards.png');
+    background-image: url('images/firstSlides/business\ cards.webp');
     animation-delay: 500ms;
 }
 
@@ -674,14 +674,14 @@ a{
     border-radius: 10px;
     width: 100%;
     height: 100%;
-    background-image: url("images/feature-1.png");
+    background-image: url("images/feature-1.webp");
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
     transition: all 200ms ease-out;
 }
 .g-img{
-    background-image: url("images/feature-2.png");
+    background-image: url("images/feature-2.webp");
 }
 
 
